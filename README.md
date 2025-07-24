@@ -9,27 +9,27 @@ Predict-Iris-Species is a machine learning web application built with Python, sc
 
 ~ Shows prediction probabilities in a horizontal bar chart.
 
-##Tech Stack
+## Tech Stack
 ~ Python
 ~ scikit-learn
 ~ pandas
 ~ joblib
 ~ Streamlit
 
-##Project Structure
+## Project Structure
 Predict-Iris-Species/
 ├── app.py                # Streamlit web app script
 ├── iris.pkl              # Saved trained Random Forest model
 ├── requirements.txt      # List of Python dependencies
 └── README.md             # Project description and instructions
 
-##Model Details
+## Model Details
 ~ Dataset: Iris (from scikit-learn)
 ~ Algorithm: Random Forest Classifier
 ~ Accuracy: ~97%
 ~ Exported using: joblib
 
-##How to Run the App Locally:
+## How to Run the App Locally:
 git clone https://github.com/mahi6299/Predict-Iris-Species.git
 cd Predict-Iris-Specie
 pip install -r requirements.txt
